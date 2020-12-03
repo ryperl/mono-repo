@@ -4,7 +4,7 @@
         "packages/*"
     ],
     "scripts": {
-        "test": "lerna run test --scope={@mono-repo/common,@mono-repo/server}",
+        "test": "lerna run test --since HEAD",
         "new-version": "lerna version --conventional-commits --yes",
         "diff": "lerna diff"
     },
