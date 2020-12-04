@@ -1,11 +1,11 @@
 {
   "name": "@mono-repo/server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "author": "Ryan Perlman",
   "license": "MIT",
   "dependencies": {
-    "@mono-repo/common": "^1.0.3",
+    "@mono-repo/common": "^1.0.5",
     "graphql-yoga": "^1.18.3"
   },
   "scripts": {
